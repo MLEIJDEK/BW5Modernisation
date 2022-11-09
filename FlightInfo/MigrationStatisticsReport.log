@@ -1,4 +1,4 @@
-2022-11-09 15:27:53,839 [Worker-3: Migrate] INFO  com.tibco.bw.migration.stats - Migrating Business Works 5.x projects to version 6 using arguments:: 
+2022-11-09 15:47:05,897 [Worker-21: Migrate] INFO  com.tibco.bw.migration.stats - Migrating Business Works 5.x projects to version 6 using arguments:: 
 [Target Project Directory: c:\Users\mleijdek.EMEA\workspace_migrate3/FlightInfo ]
 [Source Project Directory: C:\Temp\GIT\bw5modernization\BW5App\FlightInfo ]
 [Project Name: FlightInfo ]
@@ -6,13 +6,13 @@
 
 ------------------ Migration Statistics ----------------
 
-Project Migration Time [Millisecond]: 11981
+Project Migration Time [Millisecond]: 10586
 
 Process Migration Time [Millisecond]
-1. C:/Temp/GIT/bw5modernization/BW5App/FlightInfo/TestService/getFlightInfoTest-KO.process: 1002
-2. C:/Temp/GIT/bw5modernization/BW5App/FlightInfo/TestService/getFlightInfoTest-OK.process: 768
-3. C:\Temp\GIT\bw5modernization\BW5App\FlightInfo/Processes/FlightInfoService/FlightInfo-service.serviceagent: 109
-4. C:/Temp/GIT/bw5modernization/BW5App/FlightInfo/Processes/FlightInfoService/getFlightInfoService.process: 1641
+1. C:/Temp/GIT/bw5modernization/BW5App/FlightInfo/TestService/getFlightInfoTest-KO.process: 774
+2. C:/Temp/GIT/bw5modernization/BW5App/FlightInfo/TestService/getFlightInfoTest-OK.process: 741
+3. C:\Temp\GIT\bw5modernization\BW5App\FlightInfo/Processes/FlightInfoService/FlightInfo-service.serviceagent: 57
+4. C:/Temp/GIT/bw5modernization/BW5App/FlightInfo/Processes/FlightInfoService/getFlightInfoService.process: 1191
 
 Artifacts Migrated [Count]
 1. Process(& Service Agent) Migrated:4
