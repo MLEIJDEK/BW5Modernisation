@@ -7,12 +7,12 @@
     xmlns:info="http://www.tibco.com/bw/process/info"
     xmlns:ns="http://www.tibco.com/pe/EngineTypes"
     xmlns:ns0="/FlightInfo/Processes/FlightInfoService/getFlightInfoService-Start-Input.xsd"
-    xmlns:ns1="http://www.tibco.com/namespaces/tnt/plugins/jdbc+9e279c62-c153-49d0-9804-232861e86800+input"
+    xmlns:ns1="http://www.tibco.com/namespaces/tnt/plugins/jdbc+7a04fd1e-1443-4bd9-bf35-9420ad76cb43+input"
     xmlns:ns10="http://xmlns.example.com/unique/default/namespace/1134438639123"
-    xmlns:ns2="http://www.tibco.com/namespaces/tnt/plugins/jdbc+9e279c62-c153-49d0-9804-232861e86800+output"
+    xmlns:ns2="http://www.tibco.com/namespaces/tnt/plugins/jdbc+7a04fd1e-1443-4bd9-bf35-9420ad76cb43+output"
     xmlns:ns3="http://tns.tibco.com/bw/palette/internal/activityerror+bw.jdbc.JDBCQuery"
     xmlns:ns4="http://www.tibco.com/pe/WriteToLogActivitySchema"
-    xmlns:ns5="http://www.tibco.com/namespaces/tnt/plugins/jms+3e044df0-a630-4ed4-bf96-85e17ec5b5dd+input"
+    xmlns:ns5="http://www.tibco.com/namespaces/tnt/plugins/jms+77d43943-c2ae-486e-b8ba-c2d3e2e52c1b+input"
     xmlns:ns6="http://www.tibco.com/namespaces/tnt/plugins/jms"
     xmlns:ns7="http://tns.tibco.com/bw/palette/internal/activityerror+bw.jms.send"
     xmlns:ns8="http://schemas.tibco.com/bw/plugins/basic/6.0/Exceptions"
@@ -183,8 +183,8 @@
             <element name="DuplicateKeyException" type="tns:DuplicateKeyExceptionType"/>
         </schema>
         <schema
-            targetNamespace="http://www.tibco.com/namespaces/tnt/plugins/jdbc+9e279c62-c153-49d0-9804-232861e86800+input"
-            xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.tibco.com/namespaces/tnt/plugins/jdbc+9e279c62-c153-49d0-9804-232861e86800+input">
+            targetNamespace="http://www.tibco.com/namespaces/tnt/plugins/jdbc+7a04fd1e-1443-4bd9-bf35-9420ad76cb43+input"
+            xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.tibco.com/namespaces/tnt/plugins/jdbc+7a04fd1e-1443-4bd9-bf35-9420ad76cb43+input">
             <element name="jdbcQueryActivityInput">
                 <complexType>
                     <sequence>
@@ -201,8 +201,8 @@
             </element>
         </schema>
         <schema
-            targetNamespace="http://www.tibco.com/namespaces/tnt/plugins/jdbc+9e279c62-c153-49d0-9804-232861e86800+output"
-            xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.tibco.com/namespaces/tnt/plugins/jdbc+9e279c62-c153-49d0-9804-232861e86800+output">
+            targetNamespace="http://www.tibco.com/namespaces/tnt/plugins/jdbc+7a04fd1e-1443-4bd9-bf35-9420ad76cb43+output"
+            xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.tibco.com/namespaces/tnt/plugins/jdbc+7a04fd1e-1443-4bd9-bf35-9420ad76cb43+output">
             <element name="resultSet">
                 <complexType>
                     <sequence>
@@ -345,9 +345,9 @@
         </xs:schema>
         <xsd:schema attributeFormDefault="unqualified"
             elementFormDefault="qualified"
-            targetNamespace="http://www.tibco.com/namespaces/tnt/plugins/jms+3e044df0-a630-4ed4-bf96-85e17ec5b5dd+input"
+            targetNamespace="http://www.tibco.com/namespaces/tnt/plugins/jms+77d43943-c2ae-486e-b8ba-c2d3e2e52c1b+input"
             version="0.1"
-            xmlns="http://www.tibco.com/namespaces/tnt/plugins/jms+3e044df0-a630-4ed4-bf96-85e17ec5b5dd+input"
+            xmlns="http://www.tibco.com/namespaces/tnt/plugins/jms+77d43943-c2ae-486e-b8ba-c2d3e2e52c1b+input"
             xmlns:Q1="http://xmlns.example.com/unique/default/namespace/1134438639123" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
             <xsd:import
                 namespace="http://xmlns.example.com/unique/default/namespace/1134438639123" schemaLocation="../../Schemas/FlightSchema.xsd"/>
@@ -848,7 +848,7 @@
         </schema>
     </tibex:Types>
     <tibex:ProcessInfo callable="true" createdBy="mleijdek"
-        createdOn="Thu Nov 03 10:10:18 CET 2022" description=""
+        createdOn="Wed Nov 09 15:27:43 CET 2022" description=""
         extraErrorVars="true" modifiers="public"
         productVersion="2.7.1 V73 2022-02-11" scalable="true"
         singleton="true" stateless="true" type="IT"/>
@@ -1299,7 +1299,7 @@
             <bpws:extensionActivity>
                 <tibex:receiveEvent createInstance="yes"
                     eventTimeout="0" name="Start"
-                    tibex:xpdlId="2519be09-d1ec-4966-9bb6-c29b79584cd5"
+                    tibex:xpdlId="c010cc1c-1d59-4ca4-9592-c8228db16979"
                     variable="Start" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:sources>
                         <bpws:source linkName="Start-to-JDBC-Query"/>
@@ -1313,7 +1313,7 @@
                 <tibex:activityExtension
                     inputVariable="JDBC-Query-input" name="JDBC-Query"
                     outputVariable="JDBC-Query"
-                    tibex:xpdlId="9e279c62-c153-49d0-9804-232861e86800" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    tibex:xpdlId="7a04fd1e-1443-4bd9-bf35-9420ad76cb43" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
                         <bpws:target linkName="Start-to-JDBC-Query"/>
                     </bpws:targets>
@@ -1331,7 +1331,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ansbw6=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+9e279c62-c153-49d0-9804-232861e86800+input&quot; xmlns:pfx=&quot;http://zip.example.com&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:pd=&quot;http://xmlns.tibco.com/bw/process/2003&quot; xmlns:pfx2=&quot;http://www.tibco.com/pe/GenerateErrorActivity/InputSchema&quot; xmlns:ns=&quot;http://xmlns.example.com/unique/default/namespace/1134438639123&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:ns2=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; xmlns:ns3=&quot;http://www.tibco.com/namespaces/tnt/plugins/jms&quot; version=&quot;1.0&quot;>&#xa;    &lt;xsl:param name=&quot;Start&quot;/>&#xa;    &lt;xsl:template name=&quot;JDBC-Query-Input&quot; match=&quot;/&quot;>&#xa;        &lt;ansbw6:jdbcQueryActivityInput>&#xa;            &lt;pnr>&#xa;                &lt;xsl:value-of select=&quot;$Start&quot;/>&#xa;            &lt;/pnr>&#xa;        &lt;/ansbw6:jdbcQueryActivityInput>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ansbw6=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+7a04fd1e-1443-4bd9-bf35-9420ad76cb43+input&quot; xmlns:pfx=&quot;http://zip.example.com&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:pd=&quot;http://xmlns.tibco.com/bw/process/2003&quot; xmlns:pfx2=&quot;http://www.tibco.com/pe/GenerateErrorActivity/InputSchema&quot; xmlns:ns=&quot;http://xmlns.example.com/unique/default/namespace/1134438639123&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:ns2=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; xmlns:ns3=&quot;http://www.tibco.com/namespaces/tnt/plugins/jms&quot; version=&quot;1.0&quot;>&#xa;    &lt;xsl:param name=&quot;Start&quot;/>&#xa;    &lt;xsl:template name=&quot;JDBC-Query-Input&quot; match=&quot;/&quot;>&#xa;        &lt;ansbw6:jdbcQueryActivityInput>&#xa;            &lt;pnr>&#xa;                &lt;xsl:value-of select=&quot;$Start&quot;/>&#xa;            &lt;/pnr>&#xa;        &lt;/ansbw6:jdbcQueryActivityInput>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1407,7 +1407,7 @@
                 <tibex:activityExtension
                     inputVariable="Data-not-found-input"
                     name="Data-not-found"
-                    tibex:xpdlId="47072548-6190-4031-a034-37b55bbe47e5" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    tibex:xpdlId="cc48e8f7-ee58-4b68-adad-8e140424c762" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
                         <bpws:target linkName="JDBC-Query-to-Data-not-found"/>
                     </bpws:targets>
@@ -1439,7 +1439,7 @@
                 <tibex:activityExtension
                     inputVariable="Found-data-in-DB-input"
                     name="Found-data-in-DB"
-                    tibex:xpdlId="30171b2d-7643-4da6-8e46-f19d752bdd9f" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    tibex:xpdlId="9ec5c577-b73d-481d-9ed5-cd53d896a711" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
                         <bpws:target linkName="JDBC-Query-to-Found-data-in-DB"/>
                     </bpws:targets>
@@ -1472,7 +1472,7 @@
                     inputVariable="JMS-Queue-Sender-input"
                     name="JMS-Queue-Sender"
                     outputVariable="JMS-Queue-Sender"
-                    tibex:xpdlId="3e044df0-a630-4ed4-bf96-85e17ec5b5dd" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    tibex:xpdlId="77d43943-c2ae-486e-b8ba-c2d3e2e52c1b" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
                         <bpws:target linkName="Found-data-in-DB-to-JMS-Queue-Sender"/>
                     </bpws:targets>
@@ -1481,7 +1481,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ansbw6=&quot;http://www.tibco.com/namespaces/tnt/plugins/jms+3e044df0-a630-4ed4-bf96-85e17ec5b5dd+input&quot; xmlns:pfx=&quot;http://zip.example.com&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:pd=&quot;http://xmlns.tibco.com/bw/process/2003&quot; xmlns:pfx2=&quot;http://www.tibco.com/pe/GenerateErrorActivity/InputSchema&quot; xmlns:ns=&quot;http://xmlns.example.com/unique/default/namespace/1134438639123&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:ns2=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; xmlns:ns3=&quot;http://www.tibco.com/namespaces/tnt/plugins/jms+3e044df0-a630-4ed4-bf96-85e17ec5b5dd+input&quot; version=&quot;1.0&quot;>&#xa;    &lt;xsl:param name=&quot;JDBC-Query&quot;/>&#xa;    &lt;xsl:template name=&quot;JMS-Queue-Sender-Input&quot; match=&quot;/&quot;>&#xa;        &lt;ns3:ActivityInput>&#xa;            &lt;Body>&#xa;                &lt;ns:flightInfo>&#xa;                    &lt;ns:pnr>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/pnr&quot;/>&#xa;                    &lt;/ns:pnr>&#xa;                    &lt;ns:firstName>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/firstname&quot;/>&#xa;                    &lt;/ns:firstName>&#xa;                    &lt;ns:lastName>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/lastname&quot;/>&#xa;                    &lt;/ns:lastName>&#xa;                    &lt;ns:flightID>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/flight_number&quot;/>&#xa;                    &lt;/ns:flightID>&#xa;                    &lt;ns:date>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/date&quot;/>&#xa;                    &lt;/ns:date>&#xa;                    &lt;ns:departure_airport>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/departure_airport&quot;/>&#xa;                    &lt;/ns:departure_airport>&#xa;                    &lt;ns:departure_terminal>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/departure_terminal&quot;/>&#xa;                    &lt;/ns:departure_terminal>&#xa;                    &lt;ns:departure_gate>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/departure_gate&quot;/>&#xa;                    &lt;/ns:departure_gate>&#xa;                    &lt;ns:arrival_airport>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/arrival_airport&quot;/>&#xa;                    &lt;/ns:arrival_airport>&#xa;                    &lt;ns:arrival_terminal>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/arrival_terminal&quot;/>&#xa;                    &lt;/ns:arrival_terminal>&#xa;                    &lt;ns:arrival_gate>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/arrival_gate&quot;/>&#xa;                    &lt;/ns:arrival_gate>&#xa;                    &lt;ns:status>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/status&quot;/>&#xa;                    &lt;/ns:status>&#xa;                &lt;/ns:flightInfo>&#xa;            &lt;/Body>&#xa;        &lt;/ns3:ActivityInput>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ansbw6=&quot;http://www.tibco.com/namespaces/tnt/plugins/jms+77d43943-c2ae-486e-b8ba-c2d3e2e52c1b+input&quot; xmlns:pfx=&quot;http://zip.example.com&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:pd=&quot;http://xmlns.tibco.com/bw/process/2003&quot; xmlns:pfx2=&quot;http://www.tibco.com/pe/GenerateErrorActivity/InputSchema&quot; xmlns:ns=&quot;http://xmlns.example.com/unique/default/namespace/1134438639123&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:ns2=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; xmlns:ns3=&quot;http://www.tibco.com/namespaces/tnt/plugins/jms+77d43943-c2ae-486e-b8ba-c2d3e2e52c1b+input&quot; version=&quot;1.0&quot;>&#xa;    &lt;xsl:param name=&quot;JDBC-Query&quot;/>&#xa;    &lt;xsl:template name=&quot;JMS-Queue-Sender-Input&quot; match=&quot;/&quot;>&#xa;        &lt;ns3:ActivityInput>&#xa;            &lt;Body>&#xa;                &lt;ns:flightInfo>&#xa;                    &lt;ns:pnr>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/pnr&quot;/>&#xa;                    &lt;/ns:pnr>&#xa;                    &lt;ns:firstName>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/firstname&quot;/>&#xa;                    &lt;/ns:firstName>&#xa;                    &lt;ns:lastName>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/lastname&quot;/>&#xa;                    &lt;/ns:lastName>&#xa;                    &lt;ns:flightID>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/flight_number&quot;/>&#xa;                    &lt;/ns:flightID>&#xa;                    &lt;ns:date>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/date&quot;/>&#xa;                    &lt;/ns:date>&#xa;                    &lt;ns:departure_airport>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/departure_airport&quot;/>&#xa;                    &lt;/ns:departure_airport>&#xa;                    &lt;ns:departure_terminal>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/departure_terminal&quot;/>&#xa;                    &lt;/ns:departure_terminal>&#xa;                    &lt;ns:departure_gate>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/departure_gate&quot;/>&#xa;                    &lt;/ns:departure_gate>&#xa;                    &lt;ns:arrival_airport>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/arrival_airport&quot;/>&#xa;                    &lt;/ns:arrival_airport>&#xa;                    &lt;ns:arrival_terminal>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/arrival_terminal&quot;/>&#xa;                    &lt;/ns:arrival_terminal>&#xa;                    &lt;ns:arrival_gate>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/arrival_gate&quot;/>&#xa;                    &lt;/ns:arrival_gate>&#xa;                    &lt;ns:status>&#xa;                        &lt;xsl:value-of select=&quot;$JDBC-Query/Record[1]/status&quot;/>&#xa;                    &lt;/ns:status>&#xa;                &lt;/ns:flightInfo>&#xa;            &lt;/Body>&#xa;        &lt;/ns3:ActivityInput>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity activityTypeID="bw.jms.send"
@@ -1508,7 +1508,7 @@
             </bpws:extensionActivity>
             <bpws:throw faultName="ns8:DefaultFault"
                 faultVariable="Generate-Error-input"
-                name="Generate-Error" tibex:xpdlId="701147b4-5316-47d5-a536-6580b903112c">
+                name="Generate-Error" tibex:xpdlId="198439ad-1bbb-40f9-a1e1-be79a769731f">
                 <tibex:inputBindings>
                     <tibex:partBinding
                         expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ansbw6=&quot;http://schemas.tibco.com/bw/plugins/basic/6.0/Exceptions&quot; xmlns:pfx=&quot;http://zip.example.com&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:pd=&quot;http://xmlns.tibco.com/bw/process/2003&quot; xmlns:pfx2=&quot;http://schemas.tibco.com/bw/plugins/basic/6.0/Exceptions&quot; xmlns:ns=&quot;http://xmlns.example.com/unique/default/namespace/1134438639123&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:ns2=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; xmlns:ns3=&quot;http://www.tibco.com/namespaces/tnt/plugins/jms&quot; version=&quot;1.0&quot;>&#xa;    &lt;xsl:param name=&quot;Start&quot;/>&#xa;    &lt;xsl:template name=&quot;Generate-Error-Input&quot; match=&quot;/&quot;>&#xa;        &lt;pfx2:DefaultFault>&#xa;            &lt;message>&#xa;                &lt;xsl:value-of select=&quot;concat(&amp;quot;Flight nb #&amp;quot;, string($Start), &amp;quot;has not been found in DB&amp;quot;)&quot;/>&#xa;            &lt;/message>&#xa;        &lt;/pfx2:DefaultFault>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
@@ -1520,7 +1520,7 @@
             <bpws:extensionActivity>
                 <tibex:activityExtension inputVariable="End-input"
                     name="End"
-                    tibex:xpdlId="a8788787-d113-4a51-addb-8c4083b47d03" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    tibex:xpdlId="d1bccaba-9773-4b55-b9df-6876b7c2e0a5" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
                         <bpws:target linkName="JMS-Queue-Sender-to-End"/>
                     </bpws:targets>

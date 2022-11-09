@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_VZbFIFtXEe2cq6hd_8-T_w" name="Resources.Connections.JDBC-Connection" type="jdbc:JdbcDataSource">
-  <jndi:configuration xsi:type="jdbc:JdbcDataSource" xmi:id="_VZcTQFtXEe2cq6hd_8-T_w" username="%%flightInfo/JDBCUser%%" password="%%flightInfo/JDBCPassword%%">
-    <substitutionBindings xmi:id="_VZc6UVtXEe2cq6hd_8-T_w" template="username" propName="/flightInfo/JDBCUser"/>
-    <substitutionBindings xmi:id="_VZc6UltXEe2cq6hd_8-T_w" template="password" propName="/flightInfo/JDBCPassword"/>
-    <connectionConfig xsi:type="jdbc:NonXaConnection" xmi:id="_VZcTQVtXEe2cq6hd_8-T_w" jdbcDriver="org.postgresql.Driver" loginTimeout="0" dbURL="%%flightInfo/JDBCUrl%%">
-      <substitutionBindings xmi:id="_VZc6UFtXEe2cq6hd_8-T_w" template="dbURL" propName="/flightInfo/JDBCUrl"/>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_rD1GoGA6Ee2oG-rUSOCzbw" name="Resources.Connections.JDBC-Connection" type="jdbc:JdbcDataSource">
+  <jndi:configuration xsi:type="jdbc:JdbcDataSource" xmi:id="_rD1GoWA6Ee2oG-rUSOCzbw" username="%%flightInfo/JDBCUser%%" password="%%flightInfo/JDBCPassword%%">
+    <substitutionBindings xmi:id="_rD2UwWA6Ee2oG-rUSOCzbw" template="username" propName="/flightInfo/JDBCUser"/>
+    <substitutionBindings xmi:id="_rD2UwmA6Ee2oG-rUSOCzbw" template="password" propName="/flightInfo/JDBCPassword"/>
+    <connectionConfig xsi:type="jdbc:NonXaConnection" xmi:id="_rD1GomA6Ee2oG-rUSOCzbw" jdbcDriver="org.postgresql.Driver" loginTimeout="0" dbURL="%%flightInfo/JDBCUrl%%">
+      <substitutionBindings xmi:id="_rD2UwGA6Ee2oG-rUSOCzbw" template="dbURL" propName="/flightInfo/JDBCUrl"/>
     </connectionConfig>
   </jndi:configuration>
 </jndi:namedResource>

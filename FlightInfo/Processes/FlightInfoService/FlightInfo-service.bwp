@@ -219,7 +219,7 @@
         </wsdl:definitions>
     </tibex:Types>
     <tibex:ProcessInfo callable="false" createdBy="mleijdek"
-        createdOn="Thu Nov 03 10:10:23 CET 2022" description=""
+        createdOn="Wed Nov 09 15:27:47 CET 2022" description=""
         extraErrorVars="true" modifiers=""
         productVersion="2.7.1 V73 2022-02-11" scalable="false"
         singleton="true" stateless="true" type="IT"/>
@@ -614,7 +614,7 @@
     </bpws:extensions>
     <bpws:scope name="getflightInfo">
         <bpws:pick createInstance="yes"
-            name="Service.Processes_FlightInfoService_FlightInfo-service" tibex:xpdlId="1b29e4eb-16a4-4ea6-a9ef-5c5d057269b0">
+            name="Service.Processes_FlightInfoService_FlightInfo-service" tibex:xpdlId="74cb3c23-ca76-454a-a741-4f1da6aaf9f0">
             <bpws:onMessage operation="getflightInfo"
                 partnerLink="Service.Processes_FlightInfoService_FlightInfo-serviceflightPort"
                 portType="ns1:flightPort" variable="getflightInfo">
@@ -630,7 +630,7 @@
                                 inputVariable="getflightInfoProcessInput"
                                 name="getflightInfoProcess"
                                 outputVariable="getflightInfoProcessOutput"
-                                tibex:xpdlId="95d9c582-f85a-4364-8c70-4a0313f67c97"
+                                tibex:xpdlId="5e682455-eff2-4c79-8519-be6cdd74d63e"
                                 type="bw.generalactivities.callprocess" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                                 <bpws:sources>
                                     <bpws:source linkName="getflightInfoProcess-to-getflightInfoResponse"/>
@@ -647,7 +647,7 @@
                             operation="getflightInfo"
                             partnerLink="Service.Processes_FlightInfoService_FlightInfo-serviceflightPort"
                             portType="ns1:flightPort"
-                            tibex:xpdlId="83852311-d448-4871-ac5f-fe87fcc0952d" variable="getflightInfoReply">
+                            tibex:xpdlId="54ce7ace-e20c-45b8-bc5e-07a686cdeac1" variable="getflightInfoReply">
                             <tibex:inputBinding expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:impl="http://zip.example.com" version="1.0"&gt;    &lt;xsl:param name="getflightInfoProcessOutput"/&gt;    &lt;xsl:template name="getflightInfoReply" match="/"&gt;        &lt;impl:flightInfoResponse&gt;            &lt;flightInfo&gt;                &lt;xsl:copy-of select="$getflightInfoProcessOutput"/&gt;            &lt;/flightInfo&gt;        &lt;/impl:flightInfoResponse&gt;    &lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</tibex:inputBinding>
                             <tibex:inputBindings>
                                 <tibex:partBinding

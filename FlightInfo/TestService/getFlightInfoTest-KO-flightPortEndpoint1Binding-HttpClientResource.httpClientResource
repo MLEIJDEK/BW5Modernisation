@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:http="http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_WD7asFtXEe2cq6hd_8-T_w" name="TestService.getFlightInfoTest-KO-flightPortEndpoint1Binding-HttpClientResource" type="http:HttpClientConfiguration">
-  <jndi:configuration xsi:type="http:HttpClientConfiguration" xmi:id="_WEA6QFtXEe2cq6hd_8-T_w">
-    <tcpDetails xmi:id="_WEA6QVtXEe2cq6hd_8-T_w" port="10000"/>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:http="http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_rdHwYGA6Ee2oG-rUSOCzbw" name="TestService.getFlightInfoTest-KO-flightPortEndpoint1Binding-HttpClientResource" type="http:HttpClientConfiguration">
+  <jndi:configuration xsi:type="http:HttpClientConfiguration" xmi:id="_rdHwYWA6Ee2oG-rUSOCzbw">
+    <tcpDetails xmi:id="_rdHwYmA6Ee2oG-rUSOCzbw" port="10000"/>
   </jndi:configuration>
 </jndi:namedResource>
