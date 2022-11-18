@@ -1,0 +1,36 @@
+CREATE TABLE public.flightinfo (
+	pnr varchar NULL,
+	firstname varchar NULL,
+	lastname varchar NULL,
+	flight_number varchar NULL,
+	"date" date NULL,
+	departure_airport varchar NULL,
+	departure_terminal varchar NULL,
+	departure_gate varchar NULL,
+	arrival_airport varchar NULL,
+	arrival_terminal varchar NULL,
+	arrival_gate varchar NULL,
+	status varchar NULL
+);
+
+
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060150', 'Sandy', 'Massey', 'LH2223', '01/01/2021', 'PER - Perth Airport',        '1','A','MAD - Madrid Airport',       '3', 'H', 'Flying');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060151', 'Caroline', 'Kramer', 'LH1101', '01/01/2021', 'AKL - Auckland Airport',     '2','Z','BCN - Barcelona Airport',    '1', 'W', 'Flying');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060152', 'Penrith', 'Jenny', 'KL1300', '01/01/2021', 'DXB - Dubai Airport',        '3','E','FCO - Rome  Airport',        '5', 'X', 'On Time');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060153', 'Joan', 'Murphy', 'AF6103', '01/01/2021', 'LHR - London Airport',       '4','R','MUC - Munich Airport',       '1', 'C', 'Flying');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060154', 'Hartwell', 'Cobb', 'SN3676', '01/01/2021', 'CDG - Paris Airport',        '5','T','GVA - Geneva Airport',       '1', 'F', 'On Time');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060155', 'Faye', 'Bishop', 'AF7529', '01/01/2021', 'AMS - Shipol Airport',       '4','Y','JKF - NY Airport',           '4', 'V', 'Cancelled');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060156', 'Louis', 'Floyd', 'TP4945', '01/01/2021', 'IJK - Ijk Airport',          '3','U','LAX - Los Angeles Airport',  '2', 'B', 'Flying');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060157', 'Allison', 'Pollard', 'AF6105', '01/01/2021', 'PKR - Pokhara Airport',      '2','I','BRU - Brussels Airport',     '2', 'H', 'Arrived');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060158', 'Dennie', 'Peck', 'EC4022', '01/01/2021', 'MEL - Melbourne Airport',    '1','O','LIS - Lisbon Airport',       '5', 'T', 'Flying');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060159', 'Betsy', 'Cox', 'EC1701', '01/01/2021', 'SYD - Sydney Airport',       '1','P','SFO - San Francisco Airport','4', 'L', 'On Time');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060160', 'Jeff', 'Rollins', 'AF6109', '01/01/2021', 'MAD - Madrid Airport',       '2','Q','PER - Perth Airport',        '2', 'I', 'Arrived');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060161', 'Beryl', 'Mckinney', 'AF6111', '01/01/2021', 'BCN - Barcelona Airport',    '3','S','AKL - Auckland Airport',     '3', 'O', 'Cancelled');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060162', 'Matthias', 'Crawford', 'EC4024', '01/01/2021', 'FCO - Rome  Airport',        '4','D','DXB - Dubai Airport',        '1', 'N', 'Arrived');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060163', 'Jo', 'Chapman', 'EC1705', '01/01/2021', 'MUC - Munich Airport',       '5','F','LHR - London Airport',       '6', 'P', 'Flying');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060164', 'Rich', 'Carter', 'EC4334', '01/01/2021', 'GVA - Geneva Airport',       '3','G','CDG - Paris  Airport',       '1', 'E', 'Flying');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060165', 'Katy', 'Knight', 'EC3960', '01/01/2021', 'JKF - NY Airport',           '2','H','AMS - Shipol Airport',       '3', 'D', 'On Time');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060166', 'Fred', 'Winters', 'EC1737', '01/01/2021', 'LAX - Los Angeles Airport',  '1','J','CMN - Casablanca Airport',   '2', 'A', 'Arrived');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060167', 'Emmy', 'Hooper', 'LH2217', '01/01/2021', 'BRU - Brussels Airport',     '1','L','PKR - Pokhara Airport',      '5', 'H', 'Cancelled');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060168', 'Lincoln', 'Faulkner', 'IB8737', '01/01/2021', 'LIS - Lisbon Airport',       '2','M','MEL - Melbourne Airport',    '3', 'L', 'Arrived');
+INSERT INTO public.flightinfo (pnr, firstname, lastname, flight_number, "date", departure_airport, departure_terminal, departure_gate, arrival_airport, arrival_terminal, arrival_gate, status) VALUES('2022060169', 'Eddie', 'Huffman', 'AF6115', '01/01/2021', 'SFO - San Francisco Airport','3','W','SYD - Sydney Airport',       '1', 'A', 'On Time');
