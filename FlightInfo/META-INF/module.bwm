@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:axis2="http://xsd.tns.tibco.com/bw/models/binding/soap/axis2" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jms="http://xsd.tns.tibco.com/bw/models/sharedresource/jms" xmlns:namespace_1134438639123="http://xmlns.example.com/unique/default/namespace/1134438639123" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmlns:xmlns.example.com_1649689965586="http://xmlns.example.com/1649689965586" xmlns:zip.example.com="http://zip.example.com" xmi:id="_kOpdoGDhEe2ks-qhJnUVFg" targetNamespace="http://tns.tibco.com/bw/composite/FlightInfo" name="FlightInfo" compositeext:version="1.0.0" compositeext:formatVersion="2">
-  <sca:service xmi:id="_llD28GDhEe2ks-qhJnUVFg" name="Service.Processes_FlightInfoService_FlightInfo-serviceflightPort" promote="Service.Processes_FlightInfoService_FlightInfo-serviceComponent/Service.Processes_FlightInfoService_FlightInfo-serviceflightPort">
-    <sca:interface.wsdl xmi:id="_llHhUGDhEe2ks-qhJnUVFg" interface="http://zip.example.com#wsdl.interface(flightPort)"/>
-    <scaext:binding xsi:type="axis2:SOAPServiceBinding" xmi:id="_llPdIWDhEe2ks-qhJnUVFg" name="flightPortEndpoint1" targetNamespace="http://zip.example.com/flightPortEndpoint1" portTypeQName="zip.example.com:flightPort" transportBindingType="HTTP" modelVersion="1.1.0">
-      <bindingType xmi:id="_llPdImDhEe2ks-qhJnUVFg"/>
-      <inboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_llPdI2DhEe2ks-qhJnUVFg" endpointURI="/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1" httpConnector="Resources.Connections.HTTP-Connection"/>
-      <operationConfiguration xmi:id="_llPdJGDhEe2ks-qhJnUVFg" operationName="getflightInfo" action="/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1/getflightInfo">
-        <bindingType xmi:id="_llPdJWDhEe2ks-qhJnUVFg"/>
-        <messageConfiguration xmi:id="_llPdJmDhEe2ks-qhJnUVFg" messageQName="zip.example.com:flightInfoRequest">
-          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_llPdJ2DhEe2ks-qhJnUVFg" partName="PNR" encoding="literal"/>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:axis2="http://xsd.tns.tibco.com/bw/models/binding/soap/axis2" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jms="http://xsd.tns.tibco.com/bw/models/sharedresource/jms" xmlns:namespace_1134438639123="http://xmlns.example.com/unique/default/namespace/1134438639123" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmlns:xmlns.example.com_1649689965586="http://xmlns.example.com/1649689965586" xmlns:zip.example.com="http://zip.example.com" xmi:id="_Gg_FsHY8Ee297K5fRrIU-A" targetNamespace="http://tns.tibco.com/bw/composite/FlightInfo" name="FlightInfo" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_HYQE4HY8Ee297K5fRrIU-A" name="Service.Processes_FlightInfoService_FlightInfo-serviceflightPort" promote="Service.Processes_FlightInfoService_FlightInfo-serviceComponent/Service.Processes_FlightInfoService_FlightInfo-serviceflightPort">
+    <sca:interface.wsdl xmi:id="_HYShIXY8Ee297K5fRrIU-A" interface="http://zip.example.com#wsdl.interface(flightPort)"/>
+    <scaext:binding xsi:type="axis2:SOAPServiceBinding" xmi:id="_HYZ14XY8Ee297K5fRrIU-A" name="flightPortEndpoint1" targetNamespace="http://zip.example.com/flightPortEndpoint1" portTypeQName="zip.example.com:flightPort" transportBindingType="HTTP" modelVersion="1.1.0">
+      <bindingType xmi:id="_HYZ14nY8Ee297K5fRrIU-A"/>
+      <inboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_HYZ143Y8Ee297K5fRrIU-A" endpointURI="/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1" httpConnector="Resources.Connections.HTTP-Connection"/>
+      <operationConfiguration xmi:id="_HYZ15HY8Ee297K5fRrIU-A" operationName="getflightInfo" action="/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1/getflightInfo">
+        <bindingType xmi:id="_HYZ15XY8Ee297K5fRrIU-A"/>
+        <messageConfiguration xmi:id="_HYZ15nY8Ee297K5fRrIU-A" messageQName="zip.example.com:flightInfoRequest">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_HYZ153Y8Ee297K5fRrIU-A" partName="PNR" encoding="literal"/>
         </messageConfiguration>
-        <messageConfiguration xmi:id="_llPdKGDhEe2ks-qhJnUVFg" messageQName="zip.example.com:flightInfoResponse" messageDirection="OUTPUT">
-          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_llPdKWDhEe2ks-qhJnUVFg" partName="flightInfo" encoding="literal"/>
+        <messageConfiguration xmi:id="_HYZ16HY8Ee297K5fRrIU-A" messageQName="zip.example.com:flightInfoResponse" messageDirection="OUTPUT">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_HYZ16XY8Ee297K5fRrIU-A" partName="flightInfo" encoding="literal"/>
         </messageConfiguration>
-        <context xmi:id="_llPdKmDhEe2ks-qhJnUVFg">
-          <inputMapping xmi:id="_llPdK2DhEe2ks-qhJnUVFg"/>
-          <outputMapping xmi:id="_llPdLGDhEe2ks-qhJnUVFg" direction="OUTPUT"/>
+        <context xmi:id="_HYZ16nY8Ee297K5fRrIU-A">
+          <inputMapping xmi:id="_HYZ163Y8Ee297K5fRrIU-A"/>
+          <outputMapping xmi:id="_HYZ17HY8Ee297K5fRrIU-A" direction="OUTPUT"/>
         </context>
       </operationConfiguration>
-      <outboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_llPdLWDhEe2ks-qhJnUVFg" endpointURI="/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1"/>
+      <outboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_HYZ17XY8Ee297K5fRrIU-A" endpointURI="/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1"/>
     </scaext:binding>
-    <scact:bindingAdjunct xmi:id="_llPdIGDhEe2ks-qhJnUVFg" bindingName="flightPortEndpoint1"/>
+    <scact:bindingAdjunct xmi:id="_HYZ14HY8Ee297K5fRrIU-A" bindingName="flightPortEndpoint1"/>
   </sca:service>
-  <sca:reference xmi:id="_lOvosGDhEe2ks-qhJnUVFg" multiplicity="0..1" name="flightPort" wiredByImpl="false" promote="TestService.getFlightInfoTest-KOComponent/flightPort">
-    <sca:interface.wsdl xmi:id="_lOvosWDhEe2ks-qhJnUVFg" interface="http://xmlns.example.com/1649689965586#wsdl.interface(flightPort)" scaext:wsdlLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl"/>
-    <scaext:binding xsi:type="axis2:SOAPReferenceBinding" xmi:id="_lQkNomDhEe2ks-qhJnUVFg" name="flightPortEndpoint1Binding" portTypeQName="xmlns.example.com_1649689965586:flightPort" transportBindingType="HTTP" portTypeWSDLLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl" serviceQName="xmlns.example.com_1649689965586:FlightInfo-service" portName="flightPortEndpoint1" serviceBindingQName="xmlns.example.com_1649689965586:flightPortEndpoint1Binding" locationURI="http://localhost:10000/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1" wsdlLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
-      <bindingType xmi:id="_lQk0sGDhEe2ks-qhJnUVFg" style="DOCUMENT"/>
-      <operationConfiguration xmi:id="_lQk0sWDhEe2ks-qhJnUVFg" operationName="getflightInfo" action="/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1/getflightInfo">
-        <bindingType xmi:id="_lQk0smDhEe2ks-qhJnUVFg" style="DOCUMENT"/>
-        <messageConfiguration xmi:id="_lQk0s2DhEe2ks-qhJnUVFg" messageQName="xmlns.example.com_1649689965586:flightInfoRequest" wsdlLocation="file:/c:/Users/mleijdek.EMEA/workspace_migrate3/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
-          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_lQk0tGDhEe2ks-qhJnUVFg" partName="PNR" partTypeName="XMLSchema:string" encoding="literal"/>
+  <sca:reference xmi:id="_HEv6EHY8Ee297K5fRrIU-A" multiplicity="0..1" name="flightPort" wiredByImpl="false" promote="TestService.getFlightInfoTest-KOComponent/flightPort">
+    <sca:interface.wsdl xmi:id="_HEv6EXY8Ee297K5fRrIU-A" interface="http://xmlns.example.com/1649689965586#wsdl.interface(flightPort)" scaext:wsdlLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl"/>
+    <scaext:binding xsi:type="axis2:SOAPReferenceBinding" xmi:id="_HFA_0nY8Ee297K5fRrIU-A" name="flightPortEndpoint1Binding" portTypeQName="xmlns.example.com_1649689965586:flightPort" transportBindingType="HTTP" portTypeWSDLLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl" serviceQName="xmlns.example.com_1649689965586:FlightInfo-service" portName="flightPortEndpoint1" serviceBindingQName="xmlns.example.com_1649689965586:flightPortEndpoint1Binding" locationURI="http://localhost:10000/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1" wsdlLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
+      <bindingType xmi:id="_HFA_03Y8Ee297K5fRrIU-A" style="DOCUMENT"/>
+      <operationConfiguration xmi:id="_HFA_1HY8Ee297K5fRrIU-A" operationName="getflightInfo" action="/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1/getflightInfo">
+        <bindingType xmi:id="_HFA_1XY8Ee297K5fRrIU-A" style="DOCUMENT"/>
+        <messageConfiguration xmi:id="_HFA_1nY8Ee297K5fRrIU-A" messageQName="xmlns.example.com_1649689965586:flightInfoRequest" wsdlLocation="file:/c:/Users/mleijdek.EMEA/workspace_migrate3/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_HFA_13Y8Ee297K5fRrIU-A" partName="PNR" partTypeName="XMLSchema:string" encoding="literal"/>
         </messageConfiguration>
-        <messageConfiguration xmi:id="_lQk0tWDhEe2ks-qhJnUVFg" messageQName="xmlns.example.com_1649689965586:flightInfoResponse" messageDirection="OUTPUT" wsdlLocation="file:/c:/Users/mleijdek.EMEA/workspace_migrate3/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
-          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_lQk0tmDhEe2ks-qhJnUVFg" partName="flightInfo" partElementName="namespace_1134438639123:flightInfo" encoding="literal"/>
+        <messageConfiguration xmi:id="_HFA_2HY8Ee297K5fRrIU-A" messageQName="xmlns.example.com_1649689965586:flightInfoResponse" messageDirection="OUTPUT" wsdlLocation="file:/c:/Users/mleijdek.EMEA/workspace_migrate3/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_HFA_2XY8Ee297K5fRrIU-A" partName="flightInfo" partElementName="namespace_1134438639123:flightInfo" encoding="literal"/>
         </messageConfiguration>
-        <context xmi:id="_lQk0t2DhEe2ks-qhJnUVFg">
-          <inputMapping xmi:id="_lQk0uGDhEe2ks-qhJnUVFg"/>
-          <outputMapping xmi:id="_lQk0uWDhEe2ks-qhJnUVFg" direction="OUTPUT"/>
+        <context xmi:id="_HFA_2nY8Ee297K5fRrIU-A">
+          <inputMapping xmi:id="_HFA_23Y8Ee297K5fRrIU-A"/>
+          <outputMapping xmi:id="_HFA_3HY8Ee297K5fRrIU-A" direction="OUTPUT"/>
         </context>
       </operationConfiguration>
-      <outboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_lQk0umDhEe2ks-qhJnUVFg" httpClient="TestService.getFlightInfoTest-KO-flightPortEndpoint1Binding-HttpClientResource"/>
+      <outboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_HFA_3XY8Ee297K5fRrIU-A" httpClient="TestService.getFlightInfoTest-KO-flightPortEndpoint1Binding-HttpClientResource"/>
     </scaext:binding>
-    <scact:bindingAdjunct xmi:id="_lQkNoGDhEe2ks-qhJnUVFg" bindingName="flightPortEndpoint1Binding">
-      <sca:property xmi:id="_lQkNoWDhEe2ks-qhJnUVFg" name="enableSoapDefault" scaext:simpleValue="true"/>
+    <scact:bindingAdjunct xmi:id="_HFA_0HY8Ee297K5fRrIU-A" bindingName="flightPortEndpoint1Binding">
+      <sca:property xmi:id="_HFA_0XY8Ee297K5fRrIU-A" name="enableSoapDefault" scaext:simpleValue="true"/>
     </scact:bindingAdjunct>
   </sca:reference>
-  <sca:reference xmi:id="_lc5ZcGDhEe2ks-qhJnUVFg" multiplicity="0..1" name="flightPort1" wiredByImpl="false" promote="TestService.getFlightInfoTest-OKComponent/flightPort">
-    <sca:interface.wsdl xmi:id="_lc5ZcWDhEe2ks-qhJnUVFg" interface="http://xmlns.example.com/1649689965586#wsdl.interface(flightPort)" scaext:wsdlLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl"/>
-    <scaext:binding xsi:type="axis2:SOAPReferenceBinding" xmi:id="_lc6AgmDhEe2ks-qhJnUVFg" name="flightPortEndpoint1Binding" portTypeQName="xmlns.example.com_1649689965586:flightPort" transportBindingType="HTTP" portTypeWSDLLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl" serviceQName="xmlns.example.com_1649689965586:FlightInfo-service" portName="flightPortEndpoint1" serviceBindingQName="xmlns.example.com_1649689965586:flightPortEndpoint1Binding" locationURI="http://localhost:10000/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1" wsdlLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
-      <bindingType xmi:id="_lc6Ag2DhEe2ks-qhJnUVFg" style="DOCUMENT"/>
-      <operationConfiguration xmi:id="_lc6AhGDhEe2ks-qhJnUVFg" operationName="getflightInfo" action="/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1/getflightInfo">
-        <bindingType xmi:id="_lc6AhWDhEe2ks-qhJnUVFg" style="DOCUMENT"/>
-        <messageConfiguration xmi:id="_lc6AhmDhEe2ks-qhJnUVFg" messageQName="xmlns.example.com_1649689965586:flightInfoRequest" wsdlLocation="file:/c:/Users/mleijdek.EMEA/workspace_migrate3/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
-          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_lc6Ah2DhEe2ks-qhJnUVFg" partName="PNR" partTypeName="XMLSchema:string" encoding="literal"/>
+  <sca:reference xmi:id="_HQPYYHY8Ee297K5fRrIU-A" multiplicity="0..1" name="flightPort1" wiredByImpl="false" promote="TestService.getFlightInfoTest-OKComponent/flightPort">
+    <sca:interface.wsdl xmi:id="_HQPYYXY8Ee297K5fRrIU-A" interface="http://xmlns.example.com/1649689965586#wsdl.interface(flightPort)" scaext:wsdlLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl"/>
+    <scaext:binding xsi:type="axis2:SOAPReferenceBinding" xmi:id="_HQQmgnY8Ee297K5fRrIU-A" name="flightPortEndpoint1Binding" portTypeQName="xmlns.example.com_1649689965586:flightPort" transportBindingType="HTTP" portTypeWSDLLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl" serviceQName="xmlns.example.com_1649689965586:FlightInfo-service" portName="flightPortEndpoint1" serviceBindingQName="xmlns.example.com_1649689965586:flightPortEndpoint1Binding" locationURI="http://localhost:10000/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1" wsdlLocation="platform:/resource/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
+      <bindingType xmi:id="_HQQmg3Y8Ee297K5fRrIU-A" style="DOCUMENT"/>
+      <operationConfiguration xmi:id="_HQQmhHY8Ee297K5fRrIU-A" operationName="getflightInfo" action="/Processes/FlightInfo-service.serviceagent/flightPortEndpoint1/getflightInfo">
+        <bindingType xmi:id="_HQQmhXY8Ee297K5fRrIU-A" style="DOCUMENT"/>
+        <messageConfiguration xmi:id="_HQQmhnY8Ee297K5fRrIU-A" messageQName="xmlns.example.com_1649689965586:flightInfoRequest" wsdlLocation="file:/c:/Users/mleijdek.EMEA/workspace_migrate3/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_HQQmh3Y8Ee297K5fRrIU-A" partName="PNR" partTypeName="XMLSchema:string" encoding="literal"/>
         </messageConfiguration>
-        <messageConfiguration xmi:id="_lc6AiGDhEe2ks-qhJnUVFg" messageQName="xmlns.example.com_1649689965586:flightInfoResponse" messageDirection="OUTPUT" wsdlLocation="file:/c:/Users/mleijdek.EMEA/workspace_migrate3/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
-          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_lc6AiWDhEe2ks-qhJnUVFg" partName="flightInfo" partElementName="namespace_1134438639123:flightInfo" encoding="literal"/>
+        <messageConfiguration xmi:id="_HQQmiHY8Ee297K5fRrIU-A" messageQName="xmlns.example.com_1649689965586:flightInfoResponse" messageDirection="OUTPUT" wsdlLocation="file:/c:/Users/mleijdek.EMEA/workspace_migrate3/FlightInfo/TestService/ConcreteFlightInfo.wsdl">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_HQQmiXY8Ee297K5fRrIU-A" partName="flightInfo" partElementName="namespace_1134438639123:flightInfo" encoding="literal"/>
         </messageConfiguration>
-        <context xmi:id="_lc6AimDhEe2ks-qhJnUVFg">
-          <inputMapping xmi:id="_lc6Ai2DhEe2ks-qhJnUVFg"/>
-          <outputMapping xmi:id="_lc6AjGDhEe2ks-qhJnUVFg" direction="OUTPUT"/>
+        <context xmi:id="_HQQminY8Ee297K5fRrIU-A">
+          <inputMapping xmi:id="_HQQmi3Y8Ee297K5fRrIU-A"/>
+          <outputMapping xmi:id="_HQQmjHY8Ee297K5fRrIU-A" direction="OUTPUT"/>
         </context>
       </operationConfiguration>
-      <outboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_lc6AjWDhEe2ks-qhJnUVFg" httpClient="TestService.getFlightInfoTest-KO-flightPortEndpoint1Binding-HttpClientResource"/>
+      <outboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_HQQmjXY8Ee297K5fRrIU-A" httpClient="TestService.getFlightInfoTest-KO-flightPortEndpoint1Binding-HttpClientResource"/>
     </scaext:binding>
-    <scact:bindingAdjunct xmi:id="_lc6AgGDhEe2ks-qhJnUVFg" bindingName="flightPortEndpoint1Binding">
-      <sca:property xmi:id="_lc6AgWDhEe2ks-qhJnUVFg" name="enableSoapDefault" scaext:simpleValue="true"/>
+    <scact:bindingAdjunct xmi:id="_HQQmgHY8Ee297K5fRrIU-A" bindingName="flightPortEndpoint1Binding">
+      <sca:property xmi:id="_HQQmgXY8Ee297K5fRrIU-A" name="enableSoapDefault" scaext:simpleValue="true"/>
     </scact:bindingAdjunct>
   </sca:reference>
-  <sca:property xmi:id="_kOqrwGDhEe2ks-qhJnUVFg" name="BW.APPNODE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_kOqrwWDhEe2ks-qhJnUVFg" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_kOqrwmDhEe2ks-qhJnUVFg" name="BW.HOST.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_kOqrw2DhEe2ks-qhJnUVFg" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_kOqrxGDhEe2ks-qhJnUVFg" name="BW.MODULE.VERSION" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_kOqrxWDhEe2ks-qhJnUVFg" name="BW.MODULE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_k1HAsGDhEe2ks-qhJnUVFg" name="ResourcesConnectionsJDBC-Connection" type="jdbc:JdbcDataSource" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_k_tHIGDhEe2ks-qhJnUVFg" name="ResourcesConnectionsJMS-Connection" type="jms:JMSConnectionFactory" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_2nWTQGDhEe2ks-qhJnUVFg" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
-  <sca:property xmi:id="_2nkVsGDhEe2ks-qhJnUVFg" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
-  <sca:property xmi:id="_2nmx8GDhEe2ks-qhJnUVFg" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
-  <sca:property xmi:id="_2nnZAGDhEe2ks-qhJnUVFg" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
-  <sca:property xmi:id="_kVKVUGDhEe2ks-qhJnUVFg" name="/flightInfo/HTTPPort" type="XMLSchema:int" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_kVK8YGDhEe2ks-qhJnUVFg" name="/flightInfo/HTTPHost" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_ka-pcGDhEe2ks-qhJnUVFg" name="/flightInfo/JDBCUrl" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_ka-pcWDhEe2ks-qhJnUVFg" name="/flightInfo/JDBCUser" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_ka-pcmDhEe2ks-qhJnUVFg" name="/flightInfo/JDBCPassword" type="property:password" publicAccess="true" scalable="true"/>
-  <sca:component xmi:id="_lOi0YGDhEe2ks-qhJnUVFg" name="TestService.getFlightInfoTest-KOComponent" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_lOjbcGDhEe2ks-qhJnUVFg" processName="TestService.getFlightInfoTest-KO"/>
-    <sca:reference xmi:id="_lOrXQGDhEe2ks-qhJnUVFg" name="flightPort">
-      <sca:interface.wsdl xmi:id="_lOr-UGDhEe2ks-qhJnUVFg" interface="http://xmlns.example.com/1649689965586#wsdl.interface(flightPort)" scaext:wsdlLocation="../TestService/ConcreteFlightInfo.wsdl"/>
+  <sca:property xmi:id="_Gg_FsXY8Ee297K5fRrIU-A" name="BW.APPNODE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Gg_FsnY8Ee297K5fRrIU-A" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Gg_Fs3Y8Ee297K5fRrIU-A" name="BW.HOST.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Gg_FtHY8Ee297K5fRrIU-A" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Gg_FtXY8Ee297K5fRrIU-A" name="BW.MODULE.VERSION" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Gg_FtnY8Ee297K5fRrIU-A" name="BW.MODULE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_GwwnEHY8Ee297K5fRrIU-A" name="ResourcesConnectionsJDBC-Connection" type="jdbc:JdbcDataSource" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_G6LBwHY8Ee297K5fRrIU-A" name="ResourcesConnectionsJMS-Connection" type="jms:JMSConnectionFactory" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_PUMAsHY8Ee297K5fRrIU-A" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_PUSHUHY8Ee297K5fRrIU-A" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_PUTVcHY8Ee297K5fRrIU-A" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_PUT8gHY8Ee297K5fRrIU-A" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_GmJ5kHY8Ee297K5fRrIU-A" name="/flightInfo/HTTPPort" type="XMLSchema:int" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_GmJ5kXY8Ee297K5fRrIU-A" name="/flightInfo/HTTPHost" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Go0zEHY8Ee297K5fRrIU-A" name="/flightInfo/JDBCUrl" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Go0zEXY8Ee297K5fRrIU-A" name="/flightInfo/JDBCUser" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Go0zEnY8Ee297K5fRrIU-A" name="/flightInfo/JDBCPassword" type="property:password" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_HErooHY8Ee297K5fRrIU-A" name="TestService.getFlightInfoTest-KOComponent" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_HErooXY8Ee297K5fRrIU-A" processName="TestService.getFlightInfoTest-KO"/>
+    <sca:reference xmi:id="_HEtd0HY8Ee297K5fRrIU-A" name="flightPort">
+      <sca:interface.wsdl xmi:id="_HEuE4HY8Ee297K5fRrIU-A" interface="http://xmlns.example.com/1649689965586#wsdl.interface(flightPort)" scaext:wsdlLocation="../TestService/ConcreteFlightInfo.wsdl"/>
     </sca:reference>
   </sca:component>
-  <sca:component xmi:id="_lc4LUGDhEe2ks-qhJnUVFg" name="TestService.getFlightInfoTest-OKComponent" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_lc4LUWDhEe2ks-qhJnUVFg" processName="TestService.getFlightInfoTest-OK"/>
-    <sca:reference xmi:id="_lc4LUmDhEe2ks-qhJnUVFg" name="flightPort">
-      <sca:interface.wsdl xmi:id="_lc4LU2DhEe2ks-qhJnUVFg" interface="http://xmlns.example.com/1649689965586#wsdl.interface(flightPort)" scaext:wsdlLocation="../TestService/ConcreteFlightInfo.wsdl"/>
+  <sca:component xmi:id="_HQOxUHY8Ee297K5fRrIU-A" name="TestService.getFlightInfoTest-OKComponent" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_HQOxUXY8Ee297K5fRrIU-A" processName="TestService.getFlightInfoTest-OK"/>
+    <sca:reference xmi:id="_HQOxUnY8Ee297K5fRrIU-A" name="flightPort">
+      <sca:interface.wsdl xmi:id="_HQOxU3Y8Ee297K5fRrIU-A" interface="http://xmlns.example.com/1649689965586#wsdl.interface(flightPort)" scaext:wsdlLocation="../TestService/ConcreteFlightInfo.wsdl"/>
     </sca:reference>
   </sca:component>
-  <sca:component xmi:id="_llAzoGDhEe2ks-qhJnUVFg" name="Service.Processes_FlightInfoService_FlightInfo-serviceComponent" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_llAzoWDhEe2ks-qhJnUVFg" processName="FlightInfoService.Processes_FlightInfoService_FlightInfo-service"/>
-    <sca:service xmi:id="_llCBwGDhEe2ks-qhJnUVFg" name="Service.Processes_FlightInfoService_FlightInfo-serviceflightPort">
-      <sca:interface.wsdl xmi:id="_llCBwWDhEe2ks-qhJnUVFg" interface="http://zip.example.com#wsdl.interface(flightPort)"/>
+  <sca:component xmi:id="_HYPd0HY8Ee297K5fRrIU-A" name="Service.Processes_FlightInfoService_FlightInfo-serviceComponent" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_HYPd0XY8Ee297K5fRrIU-A" processName="FlightInfoService.Processes_FlightInfoService_FlightInfo-service"/>
+    <sca:service xmi:id="_HYPd0nY8Ee297K5fRrIU-A" name="Service.Processes_FlightInfoService_FlightInfo-serviceflightPort">
+      <sca:interface.wsdl xmi:id="_HYPd03Y8Ee297K5fRrIU-A" interface="http://zip.example.com#wsdl.interface(flightPort)"/>
     </sca:service>
   </sca:component>
 </sca:composite>
