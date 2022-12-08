@@ -314,7 +314,7 @@
         </wsdl:definitions>
     </tibex:Types>
     <tibex:ProcessInfo callable="false" createdBy="mleijdek"
-        createdOn="Wed Dec 07 15:33:24 CET 2022" description=""
+        createdOn="Thu Dec 08 11:30:34 CET 2022" description=""
         extraErrorVars="true" modifiers="public"
         productVersion="2.7.1 V73 2022-02-11" scalable="true"
         singleton="true" stateless="true" type="IT"/>
@@ -602,7 +602,7 @@
             <bpws:extensionActivity>
                 <tibex:receiveEvent createInstance="yes"
                     eventTimeout="60" name="Timer"
-                    tibex:xpdlId="b81bf7e2-ee67-433d-87f6-dde795805392"
+                    tibex:xpdlId="fdde41fc-7edc-40cf-aa8a-6dbd4e72e291"
                     variable="Timer" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:sources>
                         <bpws:source linkName="Timer-to-SOAPRequestReply"/>
@@ -618,7 +618,7 @@
                                 <properties name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/generalactivities#//Timer"/>
                                     <value
-                                    endTime="2022-12-07T15:33:27.290+0100"
+                                    endTime="2022-12-08T11:30:38.298+0100"
                                     intervalUnit="Second"
                                     runOnce="true"
                                     startTime="2014-02-05T11:57:57.000+0100"
@@ -633,7 +633,7 @@
                 name="SOAPRequestReply" operation="getflightInfo"
                 outputVariable="SOAPRequestReply"
                 partnerLink="flightPort" portType="ns1:flightPort"
-                tibex:copyOf="0" tibex:timeout="0" tibex:xpdlId="58e0cd2f-fd99-43d1-a31e-aba313d13688">
+                tibex:copyOf="0" tibex:timeout="0" tibex:xpdlId="2168713a-820a-4eda-9795-715a783ec15e">
                 <tibex:inputBinding expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:pfx="http://xmlns.example.com/1134523930893" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:pd="http://xmlns.tibco.com/bw/process/2003" xmlns:pfx2="http://xmlns.example.com/1649689965586" xmlns:ns="http://xmlns.example.com/unique/default/namespace/1134438639123" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://www.tibco.com/pe/WriteToLogActivitySchema" xmlns:tib="http://www.tibco.com/bw/xslt/custom-functions" xmlns:ns1="http://xmlns.tibco.com/encodings/mime" version="1.0"&gt;
     &lt;xsl:template name="SOAPRequestReply-Input" match="/"&gt;
@@ -660,7 +660,7 @@
                     expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:pfx=&quot;http://xmlns.example.com/1134523930893&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:pd=&quot;http://xmlns.tibco.com/bw/process/2003&quot; xmlns:pfx2=&quot;http://xmlns.example.com/1649689965586&quot; xmlns:ns=&quot;http://xmlns.example.com/unique/default/namespace/1134438639123&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:ns2=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; xmlns:ns1=&quot;http://xmlns.tibco.com/encodings/mime&quot; version=&quot;1.0&quot;>&#xa;    &lt;xsl:param name=&quot;SOAPRequestReply&quot;/>&#xa;    &lt;xsl:template name=&quot;Log-Input&quot; match=&quot;/&quot;>&#xa;        &lt;ns2:ActivityInput>&#xa;            &lt;message>&#xa;                &lt;xsl:value-of select=&quot;concat(&amp;quot;Response from Service&amp;quot;, tib:render-xml($SOAPRequestReply/flightInfo/ns:flightInfo))&quot;/>&#xa;            &lt;/message>&#xa;        &lt;/ns2:ActivityInput>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>"
                     expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"
                     inputVariable="Log-input" name="Log"
-                    tibex:xpdlId="89543844-d7e6-460b-a18f-5c14121f2360" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    tibex:xpdlId="5122275e-bbae-41d8-8c41-93bff65dbe5c" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
                         <bpws:target linkName="SOAPRequestReply-to-Log"/>
                     </bpws:targets>
@@ -688,7 +688,7 @@
                     </tibex:config>
                 </tibex:activityExtension>
             </bpws:extensionActivity>
-            <bpws:empty name="End" tibex:xpdlId="9c357b88-8359-47ce-88d5-341eb03bb285">
+            <bpws:empty name="End" tibex:xpdlId="43541184-46a8-4eb2-9bba-de0053ce847c">
                 <tibex:inputBindings>
                     <tibex:partBinding
                         expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:pfx=&quot;http://xmlns.example.com/1134523930893&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:pd=&quot;http://xmlns.tibco.com/bw/process/2003&quot; xmlns:pfx2=&quot;http://xmlns.example.com/1649689965586&quot; xmlns:ns=&quot;http://xmlns.example.com/unique/default/namespace/1134438639123&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:ns2=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; xmlns:ns1=&quot;http://xmlns.tibco.com/encodings/mime&quot; version=&quot;1.0&quot;>&#xa;    &lt;xsl:param name=&quot;SOAPRequestReply&quot;/>&#xa;    &lt;xsl:template name=&quot;End-Input&quot; match=&quot;/&quot;>&#xa;        &lt;xsl:copy-of select=&quot;$SOAPRequestReply/flightInfo/ns:flightInfo&quot;/>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
