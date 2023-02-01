@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:httpconnector="http://xsd.tns.tibco.com/bw/models/sharedresource/httpconnector" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_V79sEHbjEe2IL9TFmxqDNQ" name="Resources.Connections.HTTP-Connection" type="httpconnector:HttpConnectorConfiguration">
-  <jndi:configuration xsi:type="httpconnector:HttpConnectorConfiguration" xmi:id="_V8AIUHbjEe2IL9TFmxqDNQ" lingerTime="60000" uriEncoding="">
-    <substitutionBindings xmi:id="_V8t6AHbjEe2IL9TFmxqDNQ" template="host" propName="/flightInfo/HTTPHost"/>
-    <substitutionBindings xmi:id="_V8uhEHbjEe2IL9TFmxqDNQ" template="port" propName="/flightInfo/HTTPPort"/>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:httpconnector="http://xsd.tns.tibco.com/bw/models/sharedresource/httpconnector" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_VjVmMKIQEe2TOK6Y6mNfFg" name="Resources.Connections.HTTP-Connection" type="httpconnector:HttpConnectorConfiguration">
+  <jndi:configuration xsi:type="httpconnector:HttpConnectorConfiguration" xmi:id="_VjVmMaIQEe2TOK6Y6mNfFg" lingerTime="60000" uriEncoding="">
+    <substitutionBindings xmi:id="_VjW0UKIQEe2TOK6Y6mNfFg" template="host" propName="/flightInfo/HTTPHost"/>
+    <substitutionBindings xmi:id="_VjW0UaIQEe2TOK6Y6mNfFg" template="port" propName="/flightInfo/HTTPPort"/>
   </jndi:configuration>
 </jndi:namedResource>

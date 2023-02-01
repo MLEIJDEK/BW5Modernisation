@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jms="http://xsd.tns.tibco.com/bw/models/sharedresource/jms" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_WBqrcHbjEe2IL9TFmxqDNQ" name="Resources.Connections.JMS-Connection" type="jms:JMSConnectionFactory">
-  <jndi:configuration xsi:type="jms:DirectConnectionFactory" xmi:id="_WBqrcXbjEe2IL9TFmxqDNQ" factoryType="Queue/Topic" providerURL="tcp://localhost:7222">
-    <userCredentials xmi:id="_WBqrcnbjEe2IL9TFmxqDNQ" username="admin" password=""/>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jms="http://xsd.tns.tibco.com/bw/models/sharedresource/jms" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_Vn9ngKIQEe2TOK6Y6mNfFg" name="Resources.Connections.JMS-Connection" type="jms:JMSConnectionFactory">
+  <jndi:configuration xsi:type="jms:DirectConnectionFactory" xmi:id="_Vn9ngaIQEe2TOK6Y6mNfFg" factoryType="Queue/Topic" providerURL="tcp://localhost:7222">
+    <userCredentials xmi:id="_Vn9ngqIQEe2TOK6Y6mNfFg" username="admin" password=""/>
   </jndi:configuration>
 </jndi:namedResource>
