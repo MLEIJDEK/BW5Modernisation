@@ -1,0 +1,8 @@
+site_name: "FlightInfo"
+site_description: "A service that looks up flight information and publish this into an EMS Queue"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
