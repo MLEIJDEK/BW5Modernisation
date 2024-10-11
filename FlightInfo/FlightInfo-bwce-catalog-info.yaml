@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: FlightInfo.application
+  description: ''
+  tags:
+    - bwce
+  links:
+    - title: TIBCO Business Works
+      url: https://www.tibco.com/products/tibco-businessworks
+  annotations:
+    github.com/project-slug: https://github.com/MLEIJDEK/BW5Modernisation
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: bwce
+  lifecycle: production
+  owner: group:default/emea-ats
