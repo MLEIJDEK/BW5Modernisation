@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:tns="/FlightInfo/Processes/FlightInfoService/getFlightInfoService-Start-Input.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="/FlightInfo/Processes/FlightInfoService/getFlightInfoService-Start-Input.xsd">
+      
+  <xs:element name="PNR" type="xs:string"/>
+  
+</xs:schema>

@@ -1,0 +1,20 @@
+2023-02-02 11:29:10,443 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - Generating BW 6 application for BW5 project/projects at C:\Temp\GIT\bw5modernization\BW5App\FlightInfo
+2023-02-02 11:29:10,853 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - Migrating Global Variables..
+2023-02-02 11:29:11,097 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - Migrating Shared Resources..
+2023-02-02 11:29:11,158 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - Migrating XML Schema resource :C:/Temp/GIT/bw5modernization/BW5App/FlightInfo/Schemas/FlightSchema.xsd
+2023-02-02 11:29:12,247 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - Creating JMS Shared Resource for URI : c:/Users/mleijdek.EMEA/workspace_migrate3/FlightInfo/Resources/Connections/JMS-Connection.sharedjmscon
+2023-02-02 11:29:12,842 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - Migrating Processes..
+2023-02-02 11:29:12,845 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - Process Migration Order is => 
+2023-02-02 11:29:12,846 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - Processes/FlightInfoService/getFlightInfoService.process
+2023-02-02 11:29:12,846 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - TestService/getFlightInfoTest-KO.process
+2023-02-02 11:29:12,846 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - TestService/getFlightInfoTest-OK.process
+2023-02-02 11:29:13,399 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - Migrating process - Processes/FlightInfoService/getFlightInfoService.process
+2023-02-02 11:29:13,402 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - The process "FlightInfoService.getFlightInfoService" migration started
+2023-02-02 11:29:13,610 [Worker-544: Migrate] WARN  com.tibco.bw.migration.logger - Having trouble getting database column metadata for activity JDBC Query
+2023-02-02 11:29:15,115 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - The process "FlightInfoService.getFlightInfoService" migration done.
+2023-02-02 11:29:15,591 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - Migrating process - TestService/getFlightInfoTest-KO.process
+2023-02-02 11:29:15,595 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - The process "TestService.getFlightInfoTest-KO" migration started
+2023-02-02 11:29:16,623 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - The process "TestService.getFlightInfoTest-KO" migration done.
+2023-02-02 11:29:16,899 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - Migrating process - TestService/getFlightInfoTest-OK.process
+2023-02-02 11:29:16,902 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - The process "TestService.getFlightInfoTest-OK" migration started
+2023-02-02 11:29:17,637 [Worker-544: Migrate] INFO  com.tibco.bw.migration.logger - The process "TestService.getFlightInfoTest-OK" migration done.
