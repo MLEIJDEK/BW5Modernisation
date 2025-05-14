@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: topicListener292
+  description: 'EMS topic Listener'
+  tags:
+    - bwce
+    - platform
+  tibcoPlatformApps:
+    - appType: flogo
+      appName: topiclistener292
+      dataPlaneName: DP4_PresalesNL
+      dpId: cq1duk2jcp26pefl1d60
+      capabilityInstanceId: csfqing8t66kv5v3aotg
+      appId: cuni41a7s9bmf6nsijfg
+  links:
+    - title: TIBCO Business Works
+      url: https://www.tibco.com/products/tibco-businessworks
+  annotations:
+    github.com/project-slug: https://github.com/MLEIJDEK/BWCE_topicListener292
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: bwce
+  lifecycle: development
+  owner: group:default/emea-ats
