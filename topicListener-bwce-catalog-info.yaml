@@ -7,7 +7,7 @@ metadata:
     - bwce
     - platform
   tibcoPlatformApps:
-    - appType: flogo
+    - appType: bwce
       appName: topiclistener292
       dataPlaneName: DP4_PresalesNL
       dpId: cq1duk2jcp26pefl1d60
