@@ -22,4 +22,6 @@ metadata:
 spec:
   type: bwce
   lifecycle: development
-  owner: group:default/emea-ats
+  owner: user:default/michel.leijdekker
+  dependsOn:
+      - resource:default/Workshop_Topic_EMS_TOPIC
